@@ -13,3 +13,8 @@ from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 tokenizer = AutoTokenizer.from_pretrained("deepset/xlm-roberta-large-squad2")
 model = AutoModelForQuestionAnswering.from_pretrained("deepset/xlm-roberta-large-squad2")
+
+# Guide
+미래의 나를 위해 작성된 가이드
+- [Flask 설치](Guide/Flask 설치.md)
+- [Local Al Model 사용하기](Guide/Local AI Model 사용하기.md)
