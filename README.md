@@ -6,7 +6,7 @@
 - transformers : 4.46.3
 
 # AI Model
-- (deepset/xlm-roberta-large-squad2)[https://huggingface.co/deepset/xlm-roberta-large-squad2]
+- [deepset/xlm-roberta-large-squad2](https://huggingface.co/deepset/xlm-roberta-large-squad2)
 
 # Load model directly
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
