@@ -17,4 +17,4 @@ model = AutoModelForQuestionAnswering.from_pretrained("deepset/xlm-roberta-large
 # Guide
 미래의 나를 위해 작성된 가이드
 - [Flask 설치](Guide/Flask_설치.md)
-- [Local Al Model 사용하기](Guide\Local_AI_ Model_사용하기.md)
+- [Local Al Model 사용하기](Guide/Local_AI_%20Model_사용하기.md)
