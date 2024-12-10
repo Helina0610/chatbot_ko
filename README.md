@@ -16,5 +16,5 @@ model = AutoModelForQuestionAnswering.from_pretrained("deepset/xlm-roberta-large
 
 # Guide
 미래의 나를 위해 작성된 가이드
-- [Flask 설치](https://github.com/Helina0610/chatbot_ko/Guide/Flask 설치.md)
-- [Local Al Model 사용하기](https://github.com/Helina0610/chatbot_ko/Guide/Local AI Model 사용하기.md)
+- [Flask 설치](Guide/Flask_설치.md)
+- [Local Al Model 사용하기](Guide/Local_AI_ Model_사용하기.md)
