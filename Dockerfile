@@ -3,8 +3,8 @@ FROM python:3.12
 WORKDIR /usr/src/app
 
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --find-links=/packages -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./index2.py" ]
+CMD [ "python", "./index.py" ]
