@@ -5,14 +5,24 @@
 - torch : 2.3.1+cu118
 - transformers : 4.46.3
 
-# AI Model
+# AI Model 및 라이브러리리
+
+## AI 모델
+- [Bllossom/llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M](https://huggingface.co/Bllossom/llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M)
 - [deepset/xlm-roberta-large-squad2](https://huggingface.co/deepset/xlm-roberta-large-squad2)
 
-# Load model directly
-from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+## 텍스트 전처리 라이브러리 (한국어)
+- 형태소 분석 및 불용어 제거
+	- [PyKomoran](https://pydocs.komoran.kr/firststep/installation.html)
+	- [KoNLPy](https://konlpy.org/ko/latest/index.html)
+- 띄어쓰기 교정
+	- [pykospacing](https://github.com/haven-jeon/PyKoSpacing)
+- 한국어 문장 분리 도구
+	- [kiwipiepy](https://github.com/bab2min/kiwipiepy)
 
-tokenizer = AutoTokenizer.from_pretrained("deepset/xlm-roberta-large-squad2")
-model = AutoModelForQuestionAnswering.from_pretrained("deepset/xlm-roberta-large-squad2")
+## 임베딩 모델
+- [snunlp/KR-SBERT-V40K-klueNLI-augSTS](https://huggingface.co/snunlp/KR-SBERT-V40K-klueNLI-augSTS)
+
 
 # Guide
 미래의 나를 위해 작성된 가이드
@@ -20,3 +30,4 @@ model = AutoModelForQuestionAnswering.from_pretrained("deepset/xlm-roberta-large
 - [Local Al Model 사용하기](Guide/Local_AI_%20Model_사용하기.md)
 - [서버에 도커 설치 및 파이썬 프로젝트 실행](Guide/Docker_Python.md)
 - [폐쇄망에서 AI 프로젝트 실행하기](Guide/offline_setting.md)
+- [음성AI 사용하기](Guide/음성AI.md)
