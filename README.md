@@ -23,6 +23,17 @@
 ## 임베딩 모델
 - [snunlp/KR-SBERT-V40K-klueNLI-augSTS](https://huggingface.co/snunlp/KR-SBERT-V40K-klueNLI-augSTS)
 
+# 목차
+0. 텍스트 전처리
+1. 로컬 gguf 모델 실행
+2. 로컬 QA모델 실행
+3. LoRA튜닝_llamafactory
+4. gguf 파일 변환
+5. gguf 모델 활용
+6. 모델 테스트
+7. RAG
+8. 음성AI
+9. OCR
 
 # Guide
 미래의 나를 위해 작성된 가이드
